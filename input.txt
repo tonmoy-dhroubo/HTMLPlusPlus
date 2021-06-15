@@ -1,0 +1,45 @@
+<import> prototypelibray.h</import>
+
+
+<comment> This is a single line comment
+
+<comment> This
+is a 
+multiline comment </comment>
+
+<main>
+
+	<int> a,b,c,d </int>;
+	a <equal> 2;
+	b <equal> 1;
+	c <equal> 5;
+	d <equal> 4;
+	<print> a <add> b </print>;
+	<print> a <sub> b </print>;
+	<print> a <multi>b</print>;
+	<print> a <div> b </print>;
+	<print> a <pow> b </print>;
+	<print> a <pow> b </print>;
+
+
+	<condition> a <less> b </condition>
+		<true>
+			a <add> b;
+		</true>
+		<false>
+			a <sub> b;
+		</false>
+
+	<print> a<add>b </print>;
+
+	
+	<for> 
+		<count>5</count>
+			a <equal> b<add>c;
+	</for>
+
+	<root> d </root>;
+	<sin> 30 </sin>;
+	<fibonacci> 10 </fibonacci>
+	
+</main>

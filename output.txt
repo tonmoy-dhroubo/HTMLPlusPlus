@@ -1,0 +1,22 @@
+Variables have been declaredValue of the variable: 2	
+Value of the variable: 1	
+Value of the variable: 5	
+Value of the variable: 4	
+The print output : 3
+The print output : 1
+The print output : 2
+The print output : 2
+The print output : 2
+The print output : 2
+Value inside else block : 1
+The print output : 3
+Value of the variable: 6	
+FOR LOOP has started
+Loop Position : 0 and value : 6
+Loop Position : 1 and value : 6
+Loop Position : 2 and value : 6
+Loop Position : 3 and value : 6
+Loop Position : 4 and value : 6
+The ROOT is 2.000000
+The value of sine operation : 0.500001 
+Fibonacci Series: 0, 1, 1, 2, 3, 5, 8, 13, 21, 34, 55, 89, 
