@@ -5,7 +5,6 @@
 	int store[60];
 %}
 
-/* bison declarations */
 
 %token NUM VAR IF ENDIF ELSE ENDELSE MAIN ENDMAIN INT ENDINT FLOAT ENDFLOAT CHAR ENDCHAR DOUBLE ENDDOUBLE START END EQUAL ADD SUB MULT DIV MOD POW LESS GREATER FOR ENDFOR COUNT ENDCOUNT CONDITION ENDCONDITION PRINT ENDPRINT ROOT ENDROOT SIN ENDSIN COS ENDCOS TAN ENDTAN FIB ENDFIB
 
@@ -14,16 +13,14 @@
 %left SUB ADD
 %left MULT DIV
 
-/* Grammar rules and actions  */
 
 %%
 
-program: MAIN  cstatement ENDMAIN
+program: MAIN  multistatement ENDMAIN
 	 ;
 
-cstatement: /* NULL */
-
-	| cstatement statement
+multistatement: 
+	| multistatement statement
 	;
 
 statement: ';'			
